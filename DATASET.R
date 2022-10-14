@@ -8,6 +8,8 @@ usethis::use_data(THOR,compress = "xz")
 
 usethis::use_data(wrld_simpl,compress = "xz")
 
+usethis::use_data(cartogram_ASIA,compress = "xz")
+
 setwd("~/Desktop/CartoEurope")
 
 library(CartoEurope)
